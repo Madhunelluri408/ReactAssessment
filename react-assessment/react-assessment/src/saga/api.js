@@ -44,7 +44,7 @@ function* completeToDoItemAPI(todoItem) {
             'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
           },
     }).then(res => res.json());
-    return yield result;    
+    return yield result;
 }
 
 export const Api = {
@@ -53,4 +53,7 @@ export const Api = {
     updateToDoItemAPI,
     deleteToDoItemAPI,
     completeToDoItemAPI
-}; 
+};
+
+
+//code chnaged
